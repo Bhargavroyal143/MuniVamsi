@@ -1,0 +1,79 @@
+.Box2{
+    width:600px ;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: 60px;
+    box-shadow: 0px 0px 12px black;
+    border-radius: 20px;
+}
+.Box1{
+    width:600px ;
+    height: 1100px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 60px;
+    box-shadow: 0px 0px 12px black;
+    border-radius: 20px;
+}
+.Box1:hover{
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    
+}
+.Box2:hover{
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.Continer{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+   background-color: azure;
+}
+#Text{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: monospace;
+}
+#Text2{
+    font-size: 20px;
+   padding-top: 90px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Text3{
+    color: coral;
+}
+.box1 ul{
+    display: flex;
+}
+li{
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a{
+    margin-left: 20px;
+}
+@media screen and (max-width:800px) {
+    .Box1{
+        height: 2000%;
+        width: 2000%;
+        font-size: 10px;
+       
+    }
+    .Box2{
+        height: 2000%;
+        width: 2000%;
+        font-size: 10px;
+       }
+   }
